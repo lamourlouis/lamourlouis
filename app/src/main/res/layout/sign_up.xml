@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="36dp">
+    <LinearLayout
+        android:paddingBottom="16dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        >
+
+        <EditText
+            android:id="@+id/edtNewUserName"
+            android:hint="User name"
+            android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            />
+
+        <EditText
+            android:id="@+id/edtNewUserPassword"
+            android:hint="Password"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="password" />
+        <EditText
+            android:id="@+id/edtNewUserEmail"
+            android:hint="Email"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

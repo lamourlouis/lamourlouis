@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "140010889277",
+    "firebase_url": "https://schotu-d944d.firebaseio.com",
+    "project_id": "schotu-d944d",
+    "storage_bucket": "schotu-d944d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140010889277:android:8bf7ece4e4832eb72c0a54",
+        "android_client_info": {
+          "package_name": "com.example.schotu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140010889277-oj3m1t786q4n95fv1gqnsvb1mlpdcukd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFUB-V99VLFbedt9ML6k-lU1EK8bDWGaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140010889277-oj3m1t786q4n95fv1gqnsvb1mlpdcukd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

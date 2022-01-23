@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout tools:context=".MainActivity"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:contentDescription="image du logo"
+
+        app:srcCompat="@drawable/school" />
+
+    <Switch android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/userTypeSwitch"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_toEndOf="@+id/userTypeSwitch"
+        android:layout_toRightOf="@+id/userTypeSwitch"
+        android:layout_alignBottom="@+id/userTypeSwitch"
+        android:layout_alignBaseline="@+id/userTypeSwitch"
+        android:text="Tutor"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/userTypeSwitch"
+        android:layout_alignBaseline="@+id/userTypeSwitch"
+        android:text="Client"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_toStartOf="@+id/userTypeSwitch"
+        android:layout_toLeftOf="@+id/userTypeSwitch"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/userTypeSwitch"
+        android:text="Get Started"
+        android:onClick="getStarted"/>
+
+</RelativeLayout>
